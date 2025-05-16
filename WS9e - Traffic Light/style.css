@@ -1,0 +1,30 @@
+#bodyTraffic{
+    width: 60px;
+    height: 220px;
+    background-color: rgb(23, 35, 2);
+    padding: 20px;
+    margin: 0px auto 0px auto;
+}
+
+.light{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    
+}
+#red{
+    background-color: grey;
+}
+
+#amber{
+    background-color: grey;
+}
+
+#green{
+    background-color: green;
+}
+
+body{
+    text-align: center;
+}

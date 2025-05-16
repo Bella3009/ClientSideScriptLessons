@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Malta</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body id="bodyid">
+        <label>Choose colour:</label>
+        <input type="color" id="colInput">
+        <button onclick="setColour()">Confirm background colour</button>
+        <br><br>
+        <label>Choose language:</label>
+        <!-- checked shows the below radio button as selected by default -->
+        <input type="radio" id="ENG" name="lang" checked>
+        <label>English</label>
+        <input type="radio" id="MLT" name="lang">
+        <label>Maltese</label>
+        <input type="radio" id="ITA" name="lang">
+        <label>Italian</label>
+        <button onclick="setLanguage()">Confirm Language</button>
+
+        <h1 id="mytitle">Welcome to Malta!</h1>
+        <img src="images/malta.jpg" alt="Malta">
+        <p id="caption">The capital city of Malta is Valletta.</p>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS9 - JS Events</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="showMessage()">
+        <h1>Welcome to our Sports Club!</h1>
+        <iframe src="https://www.youtube.com/embed/9xlEC98Sg0g?si=KpDNuxZnlEm0zgkG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <!-- an href pointing to # means it points to the top of the page, instead of leavig it empty and reload the page each time it is clicked-->
+        <a href="#formDisplay" onclick="showForm()">Show Contact Form</a>
+        <br><br>
+        <form id="formDisplay" action="mailto:sara.bella@mcast.edu" method="post" enctype="text/plain" onsubmit="return checkForm()">
+            <label>Full name: </label><br>
+            <input type="text" name="Full Name" id="fName">
+            <br><br>
+            <label>Comment</label><br>
+            <textarea name="Comment" id="comm" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    color: darkorange;
+    font-weight: bold;
+}
+
+#logo{
+    width: 30%;
+}
+
+#overtimeImg{
+    width: 25%;
+    border-radius: 10%;
+}

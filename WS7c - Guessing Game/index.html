@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS 7c</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="generateNumber()">
+        <h1>Online Number Guessing Game</h1>
+        <h3>Instructions: You are to guess a randomly generated number between 1 and 20</h3>
+        <img src="images/logo.png" alt="logo" id="logo">
+        <br>
+        <br>
+        <label>Enter your number guess here: </label>
+        <input type="number" id="userInput">
+        <button onclick="check()">Guess</button>
+        <label id="attemptMsg"></label>
+        <h3 id="message"></h3>
+    </body>
+</html>

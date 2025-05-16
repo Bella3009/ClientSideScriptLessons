@@ -1,0 +1,19 @@
+body{
+    background-color:palegreen;
+    color: darkgreen;
+    text-align: center;
+}
+
+#logo{
+    width: 45%;
+    border: 5px dashed darkblue;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+}
+
+#message{
+    background-color: orange;
+    color: darkblue;
+}

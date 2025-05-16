@@ -1,0 +1,15 @@
+body{
+    color: darkgreen;
+    background-color: palegoldenrod;
+}
+h1{
+    text-align: center;
+}
+iframe{
+    width:50%;
+    margin-left: 25%;
+}
+form{
+    /* initially the form is not displayed */
+    display: none;
+}

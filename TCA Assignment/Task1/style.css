@@ -1,0 +1,21 @@
+body{
+    background-color: MediumSeaGreen;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
+    border: 2px double blue;
+    padding: 5px;
+}
+
+img{
+    width: 30%;
+}
+
+#myImage1{
+    visibility: hidden;
+}

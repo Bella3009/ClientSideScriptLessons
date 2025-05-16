@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Calculation</title>
+        <script src="script.js"></script>
+    </head>
+    <body onload="showDateTime()">
+        <p id="timeStamp">Current date and time: </p>
+        <h1>Working with numbers</h1>
+        <label>Number 1: </label>
+        <input type="number" id="inp1">
+        <br><br>
+
+        <label>Number 2: </label>
+        <input type="number" id="inp2">
+        <br><br>
+
+        <span>Addition: </span>
+        <span id="result1"></span>
+        <button onclick="add()">Calculate</button>
+        <br><br>
+
+        <span>Subtraction: </span>
+        <span id="result2"></span>
+        <button onclick="subtract()">Calculate</button>
+        <br><br>
+
+        <span>Multiplication: </span>
+        <span id="result3"></span>
+        <button onclick="multiple()">Calculate</button>
+        <br><br>
+
+        <span>Division: </span>
+        <span id="result4"></span>
+        <button onclick="divide()">Calculate</button>
+        <br><br>
+
+        <span>Power: </span>
+        <span id="result5"></span>
+        <button onclick="power()">Calculate</button>
+        <br><br>
+    </body>
+</html>

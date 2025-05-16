@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Intro</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="welcomeMsg()" id="bodyID">
+        <button id="btn1" onclick="greenBck()">Green Background</button>
+        <button id="btn2" onclick="blueBck()">Blue Background</button>
+
+        <h3 id="title1">Bali</h3>
+        <img src="images/bali.jpg" alt="Bali">
+        <a href="#title1" onclick="moreInfo1()">Click for more info</a> <!-- # means that will go to the beginning of the page by default-->
+        <p id="par1"></p>
+
+        <h3 id="title2">Sri Lanka</h3>
+        <img src="images/srilanka.JPG" alt="Sri Lanka">
+        <a href="#title2" onclick="moreInfo2()">Click for more info</a>
+        <p id="par2"></p>
+
+        <h3 id="title3">Maldives</h3>
+        <img src="images/maldives.jpg" alt="Maldives">
+        <a href="#title3" onclick="moreInfo3()">Click for more info</a>
+        <p id="par3"></p>
+        
+    </body>
+</html>
